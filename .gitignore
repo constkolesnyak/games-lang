@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+data/steam_lang.parquet
+data/steam_deck_search.state.json
+data/games_scored.csv
+data/games_scored.json
+data/verify_ids.txt
+data/candidates_spy2.txt
+data/verify_ids2.txt
+.site/
+.logs/
+
+# The game database is not committed: rebuild it with `make all`.
+data/
+index.html
+CATALOGUE.md
